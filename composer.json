@@ -1,0 +1,24 @@
+{
+  "authors": [
+    {
+      "name": "Brendown Ferreira de Moura",
+      "email": "br3n0k@gmail.com"
+    }
+  ],
+  "require": {
+    "php" : ">=7.2",
+    "ext-json": "*",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "models/"
+    ]
+  },
+  "config": {
+    "vendor-dir": "lib",
+    "plataform" :{
+      "php": "7.2.0"
+    }
+  }
+}
